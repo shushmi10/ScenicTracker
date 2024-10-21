@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Memory Name EditText -->
+    <EditText
+        android:id="@+id/memoryNameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/memory_name_hint"
+        android:inputType="text"
+        android:importantForAutofill="yes"
+        android:autofillHints="name"
+        android:minHeight="48dp"
+        android:padding="16dp"
+        android:maxWidth="250dp" />
+
+    <!-- Memory Description EditText -->
+    <EditText
+        android:id="@+id/memoryDescriptionEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/memory_description_hint"
+        android:inputType="textMultiLine"
+        android:importantForAutofill="yes"
+        android:autofillHints="description"
+        android:minHeight="60dp"
+        android:padding="16dp"
+        android:maxWidth="250dp"
+        android:gravity="top" />
+
+    <!-- Image View for Memory Image -->
+    <ImageView
+        android:id="@+id/memoryImageView"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:contentDescription="@string/memory_image_description"
+        android:src="@drawable/ic_memory_placeholder" />
+
+</LinearLayout>

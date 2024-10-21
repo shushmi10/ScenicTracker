@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/memoriesFragment">
+
+    <fragment
+        android:id="@+id/memoriesFragment"
+        android:name="com.example.scenictracker.MemoriesFragment"
+        tools:layout="@layout/fragment_memories" />
+
+    <fragment
+        android:id="@+id/plannedTripsFragment"
+        android:name="com.example.scenictracker.PlannedTripsFragment"
+        tools:layout="@layout/fragment_planned_trips" />
+
+    <fragment
+        android:id="@+id/addEditTripFragment"
+        android:name="com.example.scenictracker.AddEditTripFragment"
+        tools:layout="@layout/fragment_add_edit_trip" />
+</navigation>

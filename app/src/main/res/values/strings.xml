@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ScenicTracker</string>
+    <string name="trip_name_hint">Trip Name</string>
+    <string name="trip_description_hint">Trip Description</string>
+    <string name="trip_date_hint">Trip Date</string>
+    <string name="memory_name_hint">Memory Name</string>
+    <string name="memory_description_hint">Memory Description</string>
+    <string name="save_button_text">Save</string>
+    <string name="upload_image_button_text">Upload Image</string>
+    <string name="memory_image_description">Memory Image</string>
+
+</resources>

@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/memoriesFragment"
+        android:icon="@drawable/ic_memories"
+        android:title="Memories" />
+    <item
+        android:id="@+id/plannedTripsFragment"
+        android:icon="@drawable/ic_planned_trips"
+        android:title="Planned Trips" />
+</menu>
